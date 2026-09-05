@@ -109,3 +109,46 @@ Porque es muy pesado y inesesarios
 
 ### ¿Por qué un `.env` puede contener información que no debería publicarse?
 Porque almacena credenciales secretas y datos sensibles que otorgan acceso directo a bases de datos y servicios externos de una aplicación.
+
+
+
+
+## Preguntas de reflexión
+
+**1. ¿Qué diferencia existe entre `git add` y `git commit`?**
+
+`git add` prepara los archivos (los manda al staging area) y `git commit` ya guarda esos cambios en el historial del proyecto.
+
+**2. ¿Qué ventaja tiene realizar varios commits pequeños en lugar de un solo commit grande?**
+
+Entre más commits hagas, podrás tener la evolución de tu código y, si llegas a "regarla", poder retroceder sin necesidad de rehacer la mitad o todo, sino solo unas líneas.
+
+**3. ¿Qué diferencia existe entre Git y GitHub?**
+
+Git es la herramienta que te permite guardar la evolución de tu código, y GitHub es la plataforma que incorpora las características de control de versiones de Git para que puedan ser utilizadas de forma colaborativa.
+
+**¿Qué problema resuelven las ramas?**
+
+Permiten trabajar en nuevas funciones o experimentos sin afectar el código principal, y varias personas pueden trabajar en paralelo sin generar conflictos hasta que se hace el merge.
+
+**4. ¿Qué información no debería normalmente almacenarse en Git?**
+
+El archivo `.env`, ya que puede contener información sensible como contraseñas o llaves de acceso.
+
+**5. ¿Qué ocurriría si borras tu proyecto local pero está publicado en GitHub?**
+
+Se puede recuperar clonando de nuevo el repositorio desde GitHub, ya que ahí queda todo el historial guardado.
+
+**6. ¿Por qué Git es especialmente importante cuando varias personas trabajan sobre el mismo proyecto?**
+
+Git ayuda a que cada quien tenga su propia copia del proyecto y te avisa si dos personas modifican lo mismo, esto permite que todos puedan trabajar juntos al mismo tiempo, haya más eficiencia y se prevengan errores, ya que con esta herramienta queda todo registrado.
+
+**7. ¿Cuál es la diferencia entre `git clone`, `git pull` y `git push`?**
+
+`git clone` es para traerte una copia completa de un repositorio, `git pull` es cuando quieres traerte los cambios que han hecho otras personas en el repo, y `git push` es para mandar tus propios cambios al repositorio remoto.
+
+**8. ¿Por qué un commit no aparece automáticamente en GitHub?**
+
+Porque le falta el `git push`, que es el comando que sube los commits del repositorio local al remoto.
+
+
