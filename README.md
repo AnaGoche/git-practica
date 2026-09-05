@@ -121,11 +121,11 @@ Porque almacena credenciales secretas y datos sensibles que otorgan acceso direc
 
 **2. ¿Qué ventaja tiene realizar varios commits pequeños en lugar de un solo commit grande?**
 
-Entre más commits hagas, podrás tener la evolución de tu código y, si llegas a "regarla", poder retroceder sin necesidad de rehacer la mitad o todo, sino solo unas líneas.
+Entre más commits hagas, podras tener la evolución de tu código y, si llegas a regarla, poder retroceder sin necesidad de rehacer la mitad o todo, sino solo unas líneas.
 
 **3. ¿Qué diferencia existe entre Git y GitHub?**
 
-Git es la herramienta que te permite guardar la evolución de tu código, y GitHub es la plataforma que incorpora las características de control de versiones de Git para que puedan ser utilizadas de forma colaborativa.
+Git es la herramienta que te permite guardar la evolución de tu codigo, y GitHub es la plataforma que incorpora las características de control de versiones de Git para que puedan ser utilizadas de forma colaborativa.
 
 **¿Qué problema resuelven las ramas?**
 
@@ -133,7 +133,7 @@ Permiten trabajar en nuevas funciones o experimentos sin afectar el código prin
 
 **4. ¿Qué información no debería normalmente almacenarse en Git?**
 
-El archivo `.env`, ya que puede contener información sensible como contraseñas o llaves de acceso.
+El archivo `.env`, ya que puede contener informacion sensible como contraseñas o llaves de acceso.
 
 **5. ¿Qué ocurriría si borras tu proyecto local pero está publicado en GitHub?**
 
